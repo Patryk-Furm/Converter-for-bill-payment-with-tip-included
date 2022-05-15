@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rachunek</title>
+  <!-- Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/da4957646a.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Shippori+Antique&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css.css">
+</head>
+
+
+
+
+
+<body>
+
+    
+
+<div class="wrapper">
+    <div class="header">
+      <h1>BILLSPLITTER</h1>
+      <p class="header-p">SHARE YOUR BILL WITH YOUR FRIENDS!</p>
+    </div>
+
+    <div class = "all-inputs">
+      <p>Amount to pay:</p>
+      <input class = "input1" type = "number" placeholder="Enter the amount to be paid...">
+      <p class="error blinkMe">Enter the amount to be paid!</p>
+      <p>Number of people:</p>
+      <input class = "input2" type="number" placeholder="Write number of people...">
+      <p class="error1 blinkMe">Enter the number of people!</p>
+      <p>Tip:</p>
+      <select class="tip">
+        <option value="0">-choose a tip-</option>
+        <option value="0.05">5%</option>
+        <option value="0.1">10%</option>
+        <option value="0.15">15%</option>
+        <option value="0.2">20%</option>
+      </select>
+      
+      
+    </div>
+    <button class="btn">Calculate</button>
+    <p class = "result">All of you should pay <strong class = "result1"></strong> $!</p>
+</div>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
